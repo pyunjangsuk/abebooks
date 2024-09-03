@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="list_container">
+        <nav>
+            <ol>
+                <li><a href="listPage01.html">Romance</a></li>
+                <li><a href="listPage02.html">Young Adult</a></li>
+                <li><a href="listPage03.html" class="active">Literature</a></li>
+                <li><a href="listPage04.html">Fantasy</a></li>
+                <li><a href="listPage05.html">Crime Fiction</a></li>
+                <li><a href="listPage06.html">Horror Books</a></li>
+                <li><a href="listPage07.html">Cookbooks</a></li>
+                <li><a href="listPage08.html">Hobbies</a></li>
+                <li><a href="listPage09.html">Science Books</a></li>
+                <li><a href="listPage10.html">Art Books</a></li>
+            </ol>
+        </nav>
+        <h2>Literature</h2>
+        <ul>
+            <li>
+                <a href="detailPage41.html">
+                    <img src="images/listPage03_product_img_01.png" alt="Literature list book img 1">
+                </a>
+                <div>
+                    <a href="detailPage41.html">All the Light We Cannot See: A Novel</a>
+                    <b>US$ 500.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage42.html">
+                    <img src="images/listPage03_product_img_02.png" alt="Literature list book img 2">
+                </a>
+                <div>
+                    <a href="detailPage42.html">Ramage & the Rebels (The Lord Ramage 
+                        Novels)</a>
+                    <b>US$ 7.97</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage43.html">
+                    <img src="images/listPage03_product_img_03.png" alt="Literature list book img 3">
+                </a>
+                <div>
+                    <a href="detailPage43.html">Requiem: The Fall of the Templars</a>
+                    <b>US$ 6.04</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage44.html">
+                    <img src="images/listPage03_product_img_04.png" alt="Literature list book img 4">
+                </a>
+                <div>
+                    <a href="detailPage44.html">Sharpe's Prey: The Expedition to Copenhagen, 
+                        1807 (Sharpe #5)</a>
+                    <b>US$ 4.37</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage45.html">
+                    <img src="images/listPage03_product_img_05.png" alt="Literature list book img 5">
+                </a>
+                <div>
+                    <a href="detailPage45.html">Lost Hero, The: Heroes of Olympus #1</a>
+                    <b>US$ 5.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage46.html">
+                    <img src="images/listPage03_product_img_06.png" alt="Literature list book img 6">
+                </a>
+                <div>
+                    <a href="detailPage46.html">Scorpia: Alex Rider (#5)</a>
+                    <b>US$ 3.69</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage47.html">
+                    <img src="images/listPage03_product_img_07.png" alt="Literature list book img 7">
+                </a>
+                <div>
+                    <a href="detailPage47.html">Ghost Fire</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage48.html">
+                    <img src="images/listPage03_product_img_08.png" alt="Literature list book img 8">
+                </a>
+                <div>
+                    <a href="detailPage48.html">Soft Target</a>
+                    <b>US$ 5.04</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage49.html">
+                    <img src="images/listPage03_product_img_09.png" alt="Literature list book img 9">
+                </a>
+                <div>
+                    <a href="detailPage49.html">Walls of Byzantium, The</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage50.html">
+                    <img src="images/listPage03_product_img_10.png" alt="Literature list book img 10">
+                </a>
+                <div>
+                    <a href="detailPage50.html">Desolation Island</a>
+                    <b>US$ 10.07</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage51.html">
+                    <img src="images/listPage03_product_img_11.png" alt="Literature list book img 11">
+                </a>
+                <div>
+                    <a href="detailPage51.html">Washington and Caesar</a>
+                    <b>US$ 5.37</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage52.html">
+                    <img src="images/listPage03_product_img_12.png" alt="Literature list book img 12">
+                </a>
+                <div>
+                    <a href="detailPage52.html">This Shattered World: The Starbound 
+                        Trilogy #2</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage53.html">
+                    <img src="images/listPage03_product_img_13.png" alt="Literature list book img 13">
+                </a>
+                <div>
+                    <a href="detailPage53.html">Infinite Sea, The: The 5th Wave 
+                        Series #2</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage54.html">
+                    <img src="images/listPage03_product_img_14.png" alt="Literature list book img 14">
+                </a>
+                <div>
+                    <a href="detailPage54.html">Girl Who Could Move Sh*t With Her 
+                        Mind, The</a>
+                    <b>US$ 8.05</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage55.html">
+                    <img src="images/listPage03_product_img_15.png" alt="Literature list book img 15">
+                </a>
+                <div>
+                    <a href="detailPage55.html">Bones of the Hills: Conqueror Series #3</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage56.html">
+                    <img src="images/listPage03_product_img_16.png" alt="Literature list book img 16">
+                </a>
+                <div>
+                    <a href="detailPage56.html">Secret Army</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage57.html">
+                    <img src="images/listPage03_product_img_17.png" alt="Literature list book img 17">
+                </a>
+                <div>
+                    <a href="detailPage57.html">Hot Blood</a>
+                    <b>US$ 8.05</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage58.html">
+                    <img src="images/listPage03_product_img_18.png" alt="Literature list book img 18">
+                </a>
+                <div>
+                    <a href="detailPage58.html">White Tiger: Dark Heavens #1</a>
+                    <b>US$ 5.04</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage59.html">
+                    <img src="images/listPage03_product_img_19.png" alt="Literature list book img 19">
+                </a>
+                <div>
+                    <a href="detailPage59.html">Remote Control</a>
+                    <b>US$ 4.70</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage60.html">
+                    <img src="images/listPage03_product_img_20.png" alt="Literature list book img 20">
+                </a>
+                <div>
+                    <a href="detailPage60.html">HMS Saracen</a>
+                    <b>US$ 6.71</b>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

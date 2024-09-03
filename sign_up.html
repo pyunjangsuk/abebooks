@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="sign_up">
+        <div>
+            <img src="images/sing_up_img.png" alt="sing up img">
+            <p>Maecenas mattis egestas</p>
+            <p>Erdum et malesuada fames ac ante ipsum primis
+                in faucibus uspendisse porta</p>
+        </div>
+        <div>
+            <form action="sign_in.html">
+                <fieldset>
+                    <img src="images/logo.png" alt="abebooks logo img">
+                    <span>Create Account</span>
+                    <p>please name or Email and Password</p>
+                    <label for="email">Users name or Email</label>
+                    <input type="email" id="email" placeholder="AbeBooks@mail.com" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="*****" required>
+                    <label for="repassword">confirm password</label>
+                    <input type="password" id="repassword" placeholder="*****" required>
+                    <a href="sign_in.html">Back to Login</a>
+                    <input type="submit" value="Sign up">
+                </fieldset>
+            </form>
+            <span>or</span>
+            <a href="https://www.google.co.kr/">Sign in with Google</a>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

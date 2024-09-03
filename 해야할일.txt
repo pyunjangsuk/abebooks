@@ -1,0 +1,1 @@
+2024-08-27	mobile / index, list, detail, sign in, up, findPassword

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a class="active" href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="qna08">
+        <h2>How to pay for your item</h2>
+        <span>Jul 26, 2023</span>
+        <p>You can pay using one of the following payment methods on our sites:</p>
+        <ul>
+            <li>Credit cards:  Pay with VISA, MasterCard, or American Express credit cards.</li>
+            <li>Digital Wallets (Apple Pay & Google Pay): Pay with any valid VISA, Mastercard, or American Express credit or debit card in your Apple wallet or Google wallet.</li>
+            <li>Pay the seller directly after checkout using any of the payment methods offered by the seller. The seller will contact you directly to arrange payment.</li>
+        </ul>
+        <p>Sellers may offer the following payment methods. Depending on the option you select, they will provide you with the information required to process the payment.</p>
+        <ul>
+            <li>PayPal: The seller sends you a pending payment request. You can either pay the seller from your PayPal account or with a credit or debit card.</li>
+            <li>Bank/wire transfer: The seller will provide you with their bank details. Processing times for bank and wire transfers vary. You can use online banking to check if the funds have been debited from your account.</li>
+            <li>Bank Draft: The seller provides you with the amount, currency and where to send the draft. Unlike a regular check, a bank draft is a payment that is guaranteed by the issuing bank. When issuing a bank draft, the bank reviews your funds to ensure sufficient money is available to make the payment, and then withdraws the funds immediately when creating the draft. Bank drafts can be drawn in a foreign currency. As a buyer, you will be charged a fee when requesting a bank draft.</li>
+            <li>Check: The seller will contact you to inform you of who the check should be payable to, and where to send it.</li>
+            <li>Money Order: You can get a money order from a service like Western Union or MoneyGram, or even from a post office or grocery store. To send a money order, you pay the funds and the fee, and define the name of the person or business who needs to receive it. The seller presents the money order, endorsed with a signature, along with a valid identification to the money order service on their end to receive the funds. An international money order works in the same way except the currency is defined when it is requested.</li>
+            <li>Cash on delivery: The seller will arrange to have the item delivered to you, and you will pay for shipping at the time of delivery. The seller will make arrangements to collect payment from the service provider delivering the item to you.</li>
+            <li>Invoice: The seller sends you an invoice with the payment terms, including the payment terms, and the date by which they want to be paid. Some institutional buyers prefer invoice.</li>
+            <li>Direct Debit: In continental Europe, the SEPA direct debit system allows sellers to collect Euro-dominated payments from accounts in EU countries, and Iceland, Liechtenstein, Norway, and Switzerland. You authorize the seller to collect funds directly from your account. You can provide this mandate in paper or electronic format. The UK has its own direct debit system for transactions in pounds sterling. Contact your bank for instructions on how to provide a direct debit mandate.</li>
+        </ul>
+        <p>If the seller fails to make contact after you proceed through checkout, use our Ask a seller a Question form to make an inquiry.</p>
+        <p>We don't take orders over the phone and we don't offer gift cards or gift certificates. We also don't accept PayPal but some of our sellers do.</p>
+        <p>All orders should go through the checkout page, even if you are not going to pay using Visa, MasterCard, American Express, Apple Pay, or Google Pay.</p>
+        <p>Placing the order through our sites provides additional security, as you're covered by our Refund and Return Policy and will have access to our Customer Support.</p>
+        <p>Branded Gift Cards</p>
+        <p>If you want to make a purchase using a branded (VISA / MasterCard / American Express) gift card, check the Terms and Conditions of the card before you make the purchase.</p>
+        <p>The Terms and Conditions vary between cards. For example, some allow online purchases, while others do not. Some gift cards have other restrictions. There may be other terms specific to your card that might prevent the transaction from completing successfully.</p>
+        <p>If you cannot find the required information, call the customer service number located on the card for assistance.</p>
+        <p>If you request a refund on an item paid for with a branded gift card, the credit will be posted to the original gift card used to pay for the purchase. If you placed your order with a branded gift card, please keep the card until you've received your items, and you're certain that you're not returning the items and requesting a refund.</p>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

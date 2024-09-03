@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="list_container">
+        <nav>
+            <ol>
+                <li><a href="listPage01.html">Romance</a></li>
+                <li><a href="listPage02.html" class="active">Young Adult</a></li>
+                <li><a href="listPage03.html">Literature</a></li>
+                <li><a href="listPage04.html">Fantasy</a></li>
+                <li><a href="listPage05.html">Crime Fiction</a></li>
+                <li><a href="listPage06.html">Horror Books</a></li>
+                <li><a href="listPage07.html">Cookbooks</a></li>
+                <li><a href="listPage08.html">Hobbies</a></li>
+                <li><a href="listPage09.html">Science Books</a></li>
+                <li><a href="listPage10.html">Art Books</a></li>
+            </ol>
+        </nav>
+        <h2>Young Adult</h2>
+        <ul>
+            <li>
+                <a href="detailPage21.html">
+                    <img src="images/listPage02_product_img_01.png" alt="Young Adult list book img 1">
+                </a>
+                <div>
+                    <a href="detailPage21.html">The Flying Courtship</a>
+                    <b>US$ 30.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage22.html">
+                    <img src="images/listPage02_product_img_02.png" alt="Young Adult list book img 2">
+                </a>
+                <div>
+                    <a href="detailPage22.html">Magic Steps (The Circle Opens, Book 1)</a>
+                    <b>US$ 2.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage23.html">
+                    <img src="images/listPage02_product_img_03.png" alt="Young Adult list book img 3">
+                </a>
+                <div>
+                    <a href="detailPage23.html">The Selection</a>
+                    <b>US$ 5.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage24.html">
+                    <img src="images/listPage02_product_img_04.png" alt="Young Adult list book img 4">
+                </a>
+                <div>
+                    <a href="detailPage24.html">Jackaby</a>
+                    <b>US$ 6.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage25.html">
+                    <img src="images/listPage02_product_img_05.png" alt="Young Adult list book img 5">
+                </a>
+                <div>
+                    <a href="detailPage25.html">An Abundance of Katherines</a>
+                    <b>US$ 5.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage26.html">
+                    <img src="images/listPage02_product_img_06.png" alt="Young Adult list book img 6">
+                </a>
+                <div>
+                    <a href="detailPage26.html">Struck By Lightning: The Carson Phillips 
+                        Journal (The Land of Stories)</a>
+                    <b>US$ 4.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage27.html">
+                    <img src="images/listPage02_product_img_07.png" alt="Young Adult list book img 7">
+                </a>
+                <div>
+                    <a href="detailPage27.html">Breaking Dawn (The Twilight Saga, Book 4)</a>
+                    <b>US$ 4.16</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage28.html">
+                    <img src="images/listPage02_product_img_08.png" alt="Young Adult list book img 8">
+                </a>
+                <div>
+                    <a href="detailPage28.html">Eleanor & Park</a>
+                    <b>US$ 7.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage29.html">
+                    <img src="images/listPage02_product_img_09.png" alt="Young Adult list book img 9">
+                </a>
+                <div>
+                    <a href="detailPage29.html">Radiance</a>
+                    <b>US$ 2.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage30.html">
+                    <img src="images/listPage02_product_img_10.png" alt="Young Adult list book img 10">
+                </a>
+                <div>
+                    <a href="detailPage30.html">Shimmer: A Riley Bloom Book
+                        (A Riley Bloom Book, 2)</a>
+                    <b>US$ 2.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage31.html">
+                    <img src="images/listPage02_product_img_11.png" alt="Young Adult list book img 11">
+                </a>
+                <div>
+                    <a href="detailPage31.html">The Baby-Sitter IV (Point Horror Series)</a>
+                    <b>US$ 3.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage32.html">
+                    <img src="images/listPage02_product_img_12.png" alt="Young Adult list book img 12">
+                </a>
+                <div>
+                    <a href="detailPage32.html">The Sorceress (The Secrets of the 
+                        Immortal Nicholas Flamel)</a>
+                    <b>US$ 5.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage33.html">
+                    <img src="images/listPage02_product_img_13.png" alt="Young Adult list book img 13">
+                </a>
+                <div>
+                    <a href="detailPage33.html">Chosen (House of Night, Book 3)</a>
+                    <b>US$ 4.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage34.html">
+                    <img src="images/listPage02_product_img_14.png" alt="Young Adult list book img 14">
+                </a>
+                <div>
+                    <a href="detailPage34.html">Torment (Fallen, Book 2)</a>
+                    <b>US$ 5.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage35.html">
+                    <img src="images/listPage02_product_img_15.png" alt="Young Adult list book img 15">
+                </a>
+                <div>
+                    <a href="detailPage35.html">Flawless (Pretty Little Liars, Book 2)</a>
+                    <b>US$ 4.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage36.html">
+                    <img src="images/listPage02_product_img_16.png" alt="Young Adult list book img 16">
+                </a>
+                <div>
+                    <a href="detailPage36.html">Hunted (House of Night, Book 5)</a>
+                    <b>US$ 4.02</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage37.html">
+                    <img src="images/listPage02_product_img_17.png" alt="Young Adult list book img 17">
+                </a>
+                <div>
+                    <a href="detailPage37.html">A Beautiful Wedding: A Beautiful 
+                        Disaster Novella (Beautiful Disaster ...</a>
+                    <b>US$ 6.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage38.html">
+                    <img src="images/listPage02_product_img_18.png" alt="Young Adult list book img 18">
+                </a>
+                <div>
+                    <a href="detailPage38.html">The Overnight (Fear Street, No. 3)</a>
+                    <b>US$ 20.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage39.html">
+                    <img src="images/listPage02_product_img_19.png" alt="Young Adult list book img 19">
+                </a>
+                <div>
+                    <a href="detailPage39.html">Wicked (Pretty Little Liars, Book 5)</a>
+                    <b>US$ 4.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage40.html">
+                    <img src="images/listPage02_product_img_20.png" alt="Young Adult list book img 20">
+                </a>
+                <div>
+                    <a href="detailPage40.html">The Voice on the Radio</a>
+                    <b>US$ 2.50</b>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

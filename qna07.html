@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a class="active" href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="qna07">
+        <h2>How to get a refund or replacement</h2>
+        <span>Sep 6, 2022</span>
+        <div>
+            <h3>Finding a Replacement</h3>
+            <p>We are an online marketplace where thousands of independent sellers from around the world list millions of items for sale. We don't own inventory ourselves; we don't have a warehouse; and we don't hold any stock.</p>
+            <p>When you order from one of our seller, the seller ships the item directly to you from their store. Each individual seller provides their own descriptions and sets their own pricing, shipping rates and speeds.</p>
+            <p>For these reasons, we are unable to search out and order a replacement item on your behalf, since item condition, price, and shipping terms vary from seller to seller.</p>
+            <p>Instead, we suggest that you return the first item for a refund and perform a new search to find a different copy that suits your specific needs.</p>
+        </div>
+        <div>
+            <h3>Initiating a Refund/Return</h3>
+            <p>You are eligible for a refund within 30 days of your order's estimated delivery date if you are dissatisfied with your purchase due to an error on the seller's part or if the book does not arrive.</p>
+            <p>Most sellers also accept returns if you change your mind and no longer want or need the item but they are not required to do so. For this type of situation, please follow these instructions.</p>
+            <p>Regardless of the reason for the return, you must return the item to the seller in order to complete the process and receive the refund. (Does not apply to 'item did not arrive'.)</p>
+            <p>Learn more About Return Reasons and Refund Amounts</p>
+            <p>Stage 1: Initiating a Refund/Return:</p>
+            <ul>
+                <li>Go to My Account and click My Purchases.</li>
+                <li>Find the book to be refunded/returned and click Request Return/Refund.</li>
+                <li>Select a reason from the dropdown menu. You may click Explanation of Reason Codes for more details.</li>
+                <li>Please add additional comments to clarify the reason for your request. Your comments are forwarded to the seller.</li>
+            </ul>
+            <p>Stage 2: Returning the Book</p>
+            <p>After initiating a Return, you will receive a 'Return Requested' confirmation email that will include the seller's return address. You can now return the item to the seller by your preferred shipping method, ideally with tracking.</p>
+            <ul>
+                <li>For 'Buyer does not want item' returns, allow 2 business days for the seller to respond before shipping the item back. If you have received no response from the seller by the 3rd day, ship the item to the seller's address, as provided in the email.</li>
+                <li>For all other return reasons, ship the item back to the seller immediately.</li>
+                <li>Refusing delivery or returning a package as 'Return to sender' are not appropriate methods of return shipment.</li>
+                <li>Return shipping labels are not provided.</li>
+                <li>Include a copy of the 'Return Initiated' email inside the package so that the seller can easily identify your return upon arrival.</li>
+                <li>When returning an item, shipping with tracking is strongly recommended and while not a requirement, is the best way to ensure your refund will be completed in a timely manner.</li>
+                <li>When returning a book, the seller must receive the book within 28 days of your return request, when the seller is located in the same country as you. The seller must receive the book within 77 days when they are located in another country. If the seller does not receive the book within these time frames, you will be asked to provide tracking information. If none can be provided, your refund request will be cancelled.</li>
+            </ul>
+            <p>Package the item carefully to avoid damage in transit. You may re-use the original packaging if it can be adequately re-sealed and if the original 'To' and 'Return' addresses can be completely covered or replaced.</p>
+            <p>Stage 3: Entering Tracking Details (If Applicable)</p>
+            <ul>
+                <li>Go to My Account and click  My Purchases.</li>
+                <li>Find the order in the order list and click Return/Refund Details.</li>
+                <li>Enter the name of the shipping company (e.g. USPS, FedEx), the tracking number, and the date you shipped the package.</li>
+                <li>Click Save.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

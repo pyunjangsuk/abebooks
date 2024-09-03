@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="list_container">
+        <nav>
+            <ol>
+                <li><a href="listPage01.html">Romance</a></li>
+                <li><a href="listPage02.html">Young Adult</a></li>
+                <li><a href="listPage03.html">Literature</a></li>
+                <li><a href="listPage04.html">Fantasy</a></li>
+                <li><a href="listPage05.html">Crime Fiction</a></li>
+                <li><a href="listPage06.html">Horror Books</a></li>
+                <li><a href="listPage07.html">Cookbooks</a></li>
+                <li><a href="listPage08.html" class="active">Hobbies</a></li>
+                <li><a href="listPage09.html">Science Books</a></li>
+                <li><a href="listPage10.html">Art Books</a></li>
+            </ol>
+        </nav>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>
+                <a href="detailPage141.html">
+                    <img src="images/listPage08_product_img_01.png" alt="Hobbies list book img 1">
+                </a>
+                <div>
+                    <a href="detailPage141.html">The Principles of Knitting: Methods and 
+                        Techniques of Hand Knitting</a>
+                    <b>US$ 149.95</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage142.html">
+                    <img src="images/listPage08_product_img_02.png" alt="Hobbies list book img 2">
+                </a>
+                <div>
+                    <a href="detailPage142.html">Mollie Makes Creativity (2017) (with 
+                        Cover-Mounted Box of 10 Wooden ...</a>
+                    <b>US$ 47.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage143.html">
+                    <img src="images/listPage08_product_img_03.png" alt="Hobbies list book img 3">
+                </a>
+                <div>
+                    <a href="detailPage143.html">Crochet Fantasy - May, 1996. Number 107. 
+                        Spring Preview; Easter Projects...</a>
+                    <b>US$ 30.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage144.html">
+                    <img src="images/listPage08_product_img_04.png" alt="Hobbies list book img 4">
+                </a>
+                <div>
+                    <a href="detailPage144.html">Kids Crafts 101 Magazine, Summer 1996, 
+                        Volume 1, Number 1. A Special...</a>
+                    <b>US$ 75.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage145.html">
+                    <img src="images/listPage08_product_img_05.png" alt="Hobbies list book img 5">
+                </a>
+                <div>
+                    <a href="detailPage145.html">American Craft - June-July 2018. Jewel 
+                        Luminaries; Pinatas; Buttons;...</a>
+                    <b>US$ 35.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage146.html">
+                    <img src="images/listPage08_product_img_06.png" alt="Hobbies list book img 6">
+                </a>
+                <div>
+                    <a href="detailPage146.html">Weekend Decorating Projects, 1998. 
+                        Women's Day New Tradition Series, ...</a>
+                    <b>US$ 40.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage147.html">
+                    <img src="images/listPage08_product_img_07.png" alt="Hobbies list book img 7">
+                </a>
+                <div>
+                    <a href="detailPage147.html">That Quilt Has a Story</a>
+                    <b>US$ 149.95</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage148.html">
+                    <img src="images/listPage08_product_img_08.png" alt="Hobbies list book img 8">
+                </a>
+                <div>
+                    <a href="detailPage148.html">Album Quilts of Ohio's Miami Valley</a>
+                    <b>US$ 30.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage149.html">
+                    <img src="images/listPage08_product_img_09.png" alt="Hobbies list book img 9">
+                </a>
+                <div>
+                    <a href="detailPage149.html">Taunton's Threads Magazine - September, 
+                        1999, No. 84. Sheers for...</a>
+                    <b>US$ 45.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage150.html">
+                    <img src="images/listPage08_product_img_10.png" alt="Hobbies list book img 10">
+                </a>
+                <div>
+                    <a href="detailPage150.html">Lapidary Journal - February, 2002. 
+                        Step by Step Issue. Dendrite Jewelry; ...</a>
+                    <b>US$ 45.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage151.html">
+                    <img src="images/listPage08_product_img_11.png" alt="Hobbies list book img 11">
+                </a>
+                <div>
+                    <a href="detailPage151.html">TALKING WITH THE CLAY the Art of 
+                        Pueblo Pottery</a>
+                    <b>US$ 25.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage152.html">
+                    <img src="images/listPage08_product_img_12.png" alt="Hobbies list book img 12">
+                </a>
+                <div>
+                    <a href="detailPage152.html">The Rubber Stamper - March-April, 1999</a>
+                    <b>US$ 35.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage153.html">
+                    <img src="images/listPage08_product_img_13.png" alt="Hobbies list book img 13">
+                </a>
+                <div>
+                    <a href="detailPage153.html">GLORIOUS NEEDLEPOINT</a>
+                    <b>US$ 39.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage154.html">
+                    <img src="images/listPage08_product_img_14.png" alt="Hobbies list book img 14">
+                </a>
+                <div>
+                    <a href="detailPage154.html">HANDS ON RIGID HEDDLE WEAVING</a>
+                    <b>US$ 10.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage155.html">
+                    <img src="images/listPage08_product_img_15.png" alt="Hobbies list book img 15">
+                </a>
+                <div>
+                    <a href="detailPage155.html">How to Restore and Decorate Chairs</a>
+                    <b>US$ 49.95</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage156.html">
+                    <img src="images/listPage08_product_img_16.png" alt="Hobbies list book img 16">
+                </a>
+                <div>
+                    <a href="detailPage156.html">Restoring, Tuning and Using Classic 
+                        Woodworking Tools</a>
+                    <b>US$ 75.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage157.html">
+                    <img src="images/listPage08_product_img_17.png" alt="Hobbies list book img 17">
+                </a>
+                <div>
+                    <a href="detailPage157.html">McCall's Needlework Magazine - 
+                        Knitting, Crochet, Home Arts, Crafts: ...</a>
+                    <b>US$ 49.95</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage158.html">
+                    <img src="images/listPage08_product_img_18.png" alt="Hobbies list book img 18">
+                </a>
+                <div>
+                    <a href="detailPage158.html">Ireland's Traditional Craftst</a>
+                    <b>US$ 49.95</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage159.html">
+                    <img src="images/listPage08_product_img_19.png" alt="Hobbies list book img 19">
+                </a>
+                <div>
+                    <a href="detailPage159.html">Bead & Button - October, 2017. Boho Chic 
+                        Bracelet; Autumn Splendor...</a>
+                    <b>US$ 30.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage160.html">
+                    <img src="images/listPage08_product_img_20.png" alt="Hobbies list book img 20">
+                </a>
+                <div>
+                    <a href="detailPage160.html">Fiberarts The Magazine of Textiles. Summer, 
+                        1996. Australian Culture...</a>
+                    <b>US$ 35.00</b>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

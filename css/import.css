@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+/* Catamaran 구글 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+/* 구글 아이콘 */
+@import url('reset.css');
+/* 리셋 */
+@import url('bxslider.css');
+/* bx 슬라이더 */
+@import url('global.css');
+/* 글로벌 */
+@import url('page.css');
+/* 페이지 */

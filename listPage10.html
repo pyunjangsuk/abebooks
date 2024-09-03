@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="active" href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="list_container">
+        <nav>
+            <ol>
+                <li><a href="listPage01.html">Romance</a></li>
+                <li><a href="listPage02.html">Young Adult</a></li>
+                <li><a href="listPage03.html">Literature</a></li>
+                <li><a href="listPage04.html">Fantasy</a></li>
+                <li><a href="listPage05.html">Crime Fiction</a></li>
+                <li><a href="listPage06.html">Horror Books</a></li>
+                <li><a href="listPage07.html">Cookbooks</a></li>
+                <li><a href="listPage08.html">Hobbies</a></li>
+                <li><a href="listPage09.html">Science Books</a></li>
+                <li><a href="listPage10.html" class="active">Art Books</a></li>
+            </ol>
+        </nav>
+        <h2>Art Books</h2>
+        <ul>
+            <li>
+                <a href="detailPage181.html">
+                    <img src="images/listPage10_product_img_01.png" alt="Art Books list book img 1">
+                </a>
+                <div>
+                    <a href="detailPage181.html">Medieval Architecture, Medieval Learning: 
+                        Builders and Masters in the...</a>
+                    <b>US$ 44.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage182.html">
+                    <img src="images/listPage10_product_img_02.png" alt="Art Books list book img 2">
+                </a>
+                <div>
+                    <a href="detailPage182.html">The Archaeology of Athens</a>
+                    <b>US$ 87.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage183.html">
+                    <img src="images/listPage10_product_img_03.png" alt="Art Books list book img 3">
+                </a>
+                <div>
+                    <a href="detailPage183.html">Continuous Productive Urban Landscapes: 
+                        Designing Urban...</a>
+                    <b>US$ 55.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage184.html">
+                    <img src="images/listPage10_product_img_04.png" alt="Art Books list book img 4">
+                </a>
+                <div>
+                    <a href="detailPage184.html">Fin De Siecle Architecture in Barcelona.</a>
+                    <b>US$ 45.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage185.html">
+                    <img src="images/listPage10_product_img_05.png" alt="Art Books list book img 5">
+                </a>
+                <div>
+                    <a href="detailPage185.html">Farm Buildings  Structural Techniques and ...</a>
+                    <b>US$ 15.67</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage186.html">
+                    <img src="images/listPage10_product_img_06.png" alt="Art Books list book img 6">
+                </a>
+                <div>
+                    <a href="detailPage186.html">Portrait of a Country Artist CharlesTunnicliffe ...</a>
+                    <b>US$ 75.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage187.html">
+                    <img src="images/listPage10_product_img_07.png" alt="Art Books list book img 7">
+                </a>
+                <div>
+                    <a href="detailPage187.html">One Hundred Views of Edo Woodblock ...</a>
+                    <b>US$ 32.78</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage188.html">
+                    <img src="images/listPage10_product_img_08.png" alt="Art Books list book img 8">
+                </a>
+                <div>
+                    <a href="detailPage188.html">Space Place Life Learning from Place 1</a>
+                    <b>US$ 19.56</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage189.html">
+                    <img src="images/listPage10_product_img_09.png" alt="Art Books list book img 9">
+                </a>
+                <div>
+                    <a href="detailPage189.html">Town Houses of Europe</a>
+                    <b>US$ 29.99</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage190.html">
+                    <img src="images/listPage10_product_img_10.png" alt="Art Books list book img 10">
+                </a>
+                <div>
+                    <a href="detailPage190.html">Michelangelo  The Complete Sculpture, 
+                        Painting, Architecture</a>
+                    <b>US$ 18.75</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage191.html">
+                    <img src="images/listPage10_product_img_11.png" alt="Art Books list book img 11">
+                </a>
+                <div>
+                    <a href="detailPage191.html">Body of Clay, Soul of Fire Richard 
+                        Bresnahan and the Saint John's Pottery</a>
+                    <b>US$ 67.74</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage192.html">
+                    <img src="images/listPage10_product_img_12.png" alt="Art Books list book img 12">
+                </a>
+                <div>
+                    <a href="detailPage192.html">Why a Painting Is Like a Pizza A Guide
+                        to  Understanding and Enjoying ...</a>
+                    <b>US$ 9.75</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage193.html">
+                    <img src="images/listPage10_product_img_13.png" alt="Art Books list book img 13">
+                </a>
+                <div>
+                    <a href="detailPage193.html">Dutch Painting In The Seventeenth
+                        Century</a>
+                    <b>US$ 43.23</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage194.html">
+                    <img src="images/listPage10_product_img_14.png" alt="Art Books list book img 14">
+                </a>
+                <div>
+                    <a href="detailPage194.html">Designing Nature The Rinpa Aesthetic 
+                        in Japanese Art (Metropolitan...</a>
+                    <b>US$ 69.74</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage195.html">
+                    <img src="images/listPage10_product_img_15.png" alt="Art Books list book img 15">
+                </a>
+                <div>
+                    <a href="detailPage195.html">Design The Definitive Visual History</a>
+                    <b>US$ 28.00</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage196.html">
+                    <img src="images/listPage10_product_img_16.png" alt="Art Books list book img 16">
+                </a>
+                <div>
+                    <a href="detailPage196.html">Dictionary of Glass Materials and 
+                        Techniques</a>
+                    <b>US$ 16.49</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage197.html">
+                    <img src="images/listPage10_product_img_17.png" alt="Art Books list book img 17">
+                </a>
+                <div>
+                    <a href="detailPage197.html">The Heritage of Japanese Art</a>
+                    <b>US$ 37.50</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage198.html">
+                    <img src="images/listPage10_product_img_18.png" alt="Art Books list book img 18">
+                </a>
+                <div>
+                    <a href="detailPage198.html">Sir William Russell Flint, 1880-1969</a>
+                    <b>US$ 28.74</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage199.html">
+                    <img src="images/listPage10_product_img_19.png" alt="Art Books list book img 19">
+                </a>
+                <div>
+                    <a href="detailPage199.html">Fifties Source BookA Visual Guide to the 
+                        Style of a Decade</a>
+                    <b>US$ 34.99</b>
+                </div>
+            </li>
+            <li>
+                <a href="detailPage200.html">
+                    <img src="images/listPage10_product_img_20.png" alt="Art Books list book img 20">
+                </a>
+                <div>
+                    <a href="detailPage200.html">Japanese Ornamental Patterns</a>
+                    <b>US$ 15.14</b>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>

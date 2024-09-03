@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abebooks</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <!-- bx 슬라이더 원본 -->
+    <script src="js/abe.js"></script> 
+    <!-- 직접 커스텀하며 사용할 스크립트 파일 -->
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Free Shipping On All Orders Overt $75 before taxes and after applicable discounts.</p>
+            <span>media@abebooks.com</span>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="header abebooks LOGO img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="listPage01.html">Shop</a>
+                    </li>
+                    <li>
+                        <a class="active" href="best_Sellers.html">Best Sellers</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li>
+                        <button>search</button>
+                        <div id="searchPanel">
+                            <button>close</button>
+                            <input type="search">
+                            <b>Trending Products</b>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <a href="detailPage05.html">A Walk In The Sun...</a>
+                                        <a href="detailPage05.html">Book is clean and tight...</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage04.html">Mothering Sunday</a>
+                                        <a href="detailPage04.html">Graham Swift</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="detailPage03.html">On Such A Full Sea...</a>
+                                        <a href="detailPage03.html">Chang-Rae Lee</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <form action="sign_in.html">
+                            <button type="submit">Log In</button>
+                            <a href="sign_in.html">Log In</a>
+                        </form>
+                    </li>
+                    <li>
+                        <button>shopping_bag</button>
+                        <span>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cartPanel">
+            <div>
+                <button>close</button>
+                <span>Cart</span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <button>close</button>
+                        <!-- <span>Cart is empty</span> -->
+                        <p>A Walk In The Sun (Sig...</p>
+                        <b>US$ 35.00</b>
+                        <div>
+                            <input type="button" value="-">
+                            <span>1</span>
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <span>Total</span>
+                <b>US$ 35.00</b>
+            </div>
+            <a href="cartPage.html">View Cart</a>
+        </div>
+    </header>
+    <div class="best_Sellers">
+        <h2>Best Sellers</h2>
+        <div>
+            <h3>Romance</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_03.png" alt="Best Seller img 01">
+                    <div>
+                        <p>A Walk In The Sun (Signed)</p>
+                        <a href="detailPage05.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_05.png" alt="Best Seller img 02">
+                    <div>
+                        <p>On Such A Full Sea - Signed and Limited...</p>
+                        <a href="detailPage03.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_07.png" alt="Best Seller img 03">
+                    <div>
+                        <p>The Time Traveler's Wife...</p>
+                        <a href="detailPage02.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_10.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Folk Hearts a Celebration of the...</p>
+                        <a href="detailPage01.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Young Adult</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_16.png" alt="Best Seller img 01">
+                    <div>
+                        <p>An Abundance of Katherines</p>
+                        <a href="detailPage25.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_17.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Jackaby</p>
+                        <a href="detailPage24.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_18.png" alt="Best Seller img 03">
+                    <div>
+                        <p>The Selection</p>
+                        <a href="detailPage23.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_19.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Magic Steps</p>
+                        <a href="detailPage22.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Literature</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_24.png" alt="Best Seller img 01">
+                    <div>
+                        <p>Lost Hero, The Heroes of Olympus</p>
+                        <a href="detailPage45.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_25.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Sharpe's Prey The Expedition to...</p>
+                        <a href="detailPage44.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_26.png" alt="Best Seller img 03">
+                    <div>
+                        <p>Requiem The Fall of the Templars</p>
+                        <a href="detailPage43.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_27.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Ramage & the Rebels</p>
+                        <a href="detailPage42.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Fantasy</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_32.png" alt="Best Seller img 01">
+                    <div>
+                        <p>THE NEVERENDING STORY</p>
+                        <a href="detailPage65.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_33.png" alt="Best Seller img 02">
+                    <div>
+                        <p>THE CARPET PEOPLE</p>
+                        <a href="detailPage64.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_34.png" alt="Best Seller img 03">
+                    <div>
+                        <p>The Book of Fantasy</p>
+                        <a href="detailPage63.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_35.png" alt="Best Seller img 04">
+                    <div>
+                        <p>TITUS ALONE</p>
+                        <a href="detailPage62.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Crime Fiction</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_40.png" alt="Best Seller img 01">
+                    <div>
+                        <p>The Man from the Gallows...</p>
+                        <a href="detailPage85.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_41.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Crime Collection  Hallowe'en Party...</p>
+                        <a href="detailPage84.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_42.png" alt="Best Seller img 03">
+                    <div>
+                        <p>Sleeping Murder- Miss Marple's Last Case</p>
+                        <a href="detailPage83.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_43.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Hard Landing</p>
+                        <a href="detailPage82.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Horror Books</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_48.png" alt="Best Seller img 01">
+                    <div>
+                        <p>FOUR PAST MIDNIGHT (SIGNED)</p>
+                        <a href="detailPage105.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_49.png" alt="Best Seller img 02">
+                    <div>
+                        <p>The Bonehunters Tale 6 of the...</p>
+                        <a href="detailPage104.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_50.png" alt="Best Seller img 03">
+                    <div>
+                        <p>PET SEMATARY (signed 1st)</p>
+                        <a href="detailPage103.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_51.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Rage</p>
+                        <a href="detailPage102.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cookbooks</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_56.png" alt="Best Seller img 01">
+                    <div>
+                        <p>The Classic Italian Cook Book The Art...</p>
+                        <a href="detailPage125.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_57.png" alt="Best Seller img 02">
+                    <div>
+                        <p>The French Chef Cookbook</p>
+                        <a href="detailPage24.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_58.png" alt="Best Seller img 03">
+                    <div>
+                        <p>Eats  A Folk History of Texas Foods</p>
+                        <a href="detailPage123.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_59.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Peach Tree Family Cookbook</p>
+                        <a href="detailPage122.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_64.png" alt="Best Seller img 01">
+                    <div>
+                        <p>American Craft - June-July 2018</p>
+                        <a href="detailPage145.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_65.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Kids Crafts 101 Magazine, Summer...</p>
+                        <a href="detailPage144.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_66.png" alt="Best Seller img 03">
+                    <div>
+                        <p>Crochet Fantasy - May, 1996. Number 107...</p>
+                        <a href="detailPage143.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_67.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Mollie Makes Creativity (2017)...</p>
+                        <a href="detailPage142.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Science Books</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_72.png" alt="Best Seller img 01">
+                    <div>
+                        <p>The Elements A Visual Exploration of...</p>
+                        <a href="detailPage165.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_73.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Pratique de chymie, divisée en quatre...</p>
+                        <a href="detailPage164.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_74.png" alt="Best Seller img 03">
+                    <div>
+                        <p>Adhesion Promotion Techniques...</p>
+                        <a href="detailPage163.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_75.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Crude Oil Waxes, Emulsions, and...</p>
+                        <a href="detailPage162.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Art Books</h3>
+            <ul>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_80.png" alt="Best Seller img 01">
+                    <div>
+                        <p>Body of Clay, Soul of Fire...</p>
+                        <a href="detailPage191.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_81.png" alt="Best Seller img 02">
+                    <div>
+                        <p>Fin De Siecle Architecture in...</p>
+                        <a href="detailPage190.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_82.png" alt="Best Seller img 03">
+                    <div>
+                        <p>The Archaeology of Athens</p>
+                        <a href="detailPage184.html">View now</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/best_sellers_image/Best-Sellers_83.png" alt="Best Seller img 04">
+                    <div>
+                        <p>Continuous Productive Urban Landscapes...</p>
+                        <a href="detailPage183.html">View now</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h2>
+                    <img src="images/logo.png" alt="footer abebooks LOGO img">
+                </h2>
+                <p>Find any book at the best price</p>
+            </li>
+            <li>
+                <h3>Quick Links</h3>
+                <ol>
+                    <li>
+                        <a href="help.html">QnA Help</a>
+                    </li>
+                    <li>
+                        <a href="privacy_Policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="terms_Conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">My Account</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h3>Address</h3>
+                <p>
+                    Our headquarters are located
+                    in Victoria, British Columbia, 
+                    Canada, and we also have an 
+                    office in Munich, Germany.
+                </p>
+            </li>
+            <li>
+                <h3>Follow or link</h3>
+                <ol>
+                    <li><a href="https://ko-kr.facebook.com/" target="_blank"><img src="images/footer_facebook.svg" alt="facebook homepage"></a></li>
+                    <li><a href="https://x.com/" target="_blank"><img src="images/footer_x-twitter.svg" alt="x-twitter homepage"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="images/footer_instagram.svg" alt="instagram homepage"></a></li>
+                </ol>
+            </li>
+        </ul>
+        <p>
+            © 1996 - 2024 AbeBooks Inc. All Rights Reserved. AbeBooks, the AbeBooks logo, AbeBooks.com, "Passion for books." and "Passion for books. Books for your passion."
+            are registered trademarks with the Registered US Patent & Trademark Office.
+        </p>
+    </footer>
+</body>
+</html>
